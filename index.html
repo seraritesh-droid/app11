@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    var ua = navigator.userAgent;
+    var isMobile = /Android|iPhone/i.test(ua);
+
+    if (isMobile) {
+      window.location.href = "https://example.com/mobile";  
+    } else {
+      window.location.href = "https://example.com/desktop"; 
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>
